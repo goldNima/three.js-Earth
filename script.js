@@ -18,7 +18,7 @@ scene.add(directionalLight);
 
 const gltfLoader = new GLTFLoader();
 let model;
-gltfLoader.load("./public/model/earth_cartoon.glb", (gltf) => {
+gltfLoader.load("/model/earth_cartoon.glb", (gltf) => {
     model = gltf.scene;
     scene.add(model);
 });
